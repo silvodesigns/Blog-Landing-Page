@@ -1,0 +1,24 @@
+/* pinkrange  = #ff856e 
+   dark_purple = #3a3b59
+   light_grey = #fafafa
+   dark_black = #24242c
+
+*/
+
+#main{
+    background-color:#ff856e;
+    width: 100%;
+}
+
+#body {
+    background-color: #fafafa;
+}
+
+#mid_banner{
+    background-color: #3a3b59;
+
+}
+
+footer{
+    background-color: #24242c;
+}
