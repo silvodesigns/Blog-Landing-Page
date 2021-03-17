@@ -7,6 +7,9 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/html5reset-1.6.1.css">
   <link rel="stylesheet" href="styles/styles.css">
 
 
@@ -16,10 +19,12 @@
 
 <body>
   <div id="main">
-    <img class="logo" src="images/logo.svg" />
-    <div id="menu">
-      Product
-      <!-- 
+    <nav>
+      <div class="divider1">
+        <img class="logo" src="images/logo.svg" />
+        <div id="drop_down">
+          Product
+          <!-- 
       Overview
       Pricing
       Marketplace
@@ -27,8 +32,8 @@
       Integrations -->
 
 
-      Company
-      <!-- 
+          Company
+          <!-- 
       About
       Team
       Blog
@@ -36,31 +41,35 @@
 
 
 
-      Connect
-      <!-- 
+          Connect
+          <!-- 
       Contact
       Newsletter
       LinkedIn -->
 
 
+        </div>
+      </div>
+      <div class="divider2">
+        <div id="authentication">
+          <p id="log_in">Log In</p>
+          <button class="button">Sign Up</button>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div id="description">
+      <h1>A modern publishing platform</h1>
+      <h3>Grow your audience and build your online brand</h3>
+
+      <div id="calls_to_action">
+        <button class="button">Start for free</button>
+        <button class="button_border">Learn More</button>
+      </div>
+
     </div>
-
-
-
-
-    <div id="authentication">
-      Login
-      Sign Up
-    </div>
-
-
-
-    <h1>A modern publishing platform</h1>
-    <h3>Grow your audience and build your online brand</h3>
-
-
-    <button>Start for Free</button>
-    <button>Learn More</button>
 
   </div>
 
