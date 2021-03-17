@@ -12,6 +12,13 @@ h1{
     font-size:45px;
    
 }
+h2{
+    font-size: 38px;
+}
+.title {
+    font-size: 24px;
+
+}
 
 
 
@@ -59,15 +66,11 @@ body {
 //Dropdown Menu
 #dropdown_container{
 
-
-
     .dropdown_hover{
         visibility: visible;
         opacity: 1;
         display: block;
         cursor: pointer;
-
-
 
     }
 
@@ -165,6 +168,54 @@ body {
    margin-right: 25px;
 }
 
+#intro {
+
+    width:100%;
+    height:auto;
+    h2 {
+        text-align: center;
+        margin-top:100px;
+    }
+    .container{
+        display:flex;
+        justify-content: space-evenly;
+        margin-top:100px;
+       .image_container, .description {
+           width:50%;
+       }
+       .image_container{
+           overflow: hidden;
+           img{
+               float:right;
+               max-width:100%;
+               position:relative;
+               height:auto;
+               margin-right:-20%;
+
+
+           }
+       
+        
+       }
+
+       .description {
+           .area {
+                 width: 500px;
+                 margin-bottom: 75px;
+                 margin-top:100px;
+                 margin-left: auto;
+                 margin-right: auto;
+           }
+           p{
+               font-weight: 300;
+               line-height: 1.5em;
+               margin-top:25px;
+               font-size: 14px;
+               
+           }
+       }
+    }
+}
 
 
 #mid_banner{
