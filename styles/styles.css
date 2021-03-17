@@ -10,6 +10,9 @@
     width: 100%;
     height: 500px;
     color: #fff;
+    background-image: url('../images/bg-pattern-intro.svg');
+    background-position: center;
+    border-bottom-left-radius: 90px;
     
 }
 
@@ -20,7 +23,47 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
+.divider1, #authentication{
+    display:flex;
+    align-items: center;
 
+}
+
+#log_in{
+   margin-right: 25px;
+}
+
+.logo{
+    margin-right:50px;
+}
+
+
+.button{
+    background-color: #fff;
+    border: none;
+    color: #ff856e;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+
+.button_border{
+    background-color: #ff856e;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+
+}
 
 body {
     background-color: #fafafa;
