@@ -35,6 +35,47 @@ body {
 #main .divider2 #authentication .logo {
   margin-right: 50px;
 }
+#dropdown_container .dropdown_hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  cursor: pointer;
+}
+#dropdown_container a {
+  text-decoration: none;
+  color: #fff;
+}
+#dropdown_container ul {
+  list-style: none;
+}
+#dropdown_container ul li {
+  display: block;
+  float: left;
+  position: relative;
+  text-decoration: none;
+  margin-right: 25px;
+}
+#dropdown_container ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  display: none;
+  background-color: #ff856e;
+  padding: 5px;
+}
+#dropdown_container ul li ul li {
+  clear: both;
+  width: 100%;
+  margin-top: 1rem;
+}
+#dropdown_container ul li:hover > ul,
+#dropdown_container ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  cursor: pointer;
+}
 .hover_state {
   background-color: #fff;
   border: none;
