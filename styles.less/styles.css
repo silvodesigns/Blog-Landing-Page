@@ -4,6 +4,13 @@ h1 {
 h2 {
   font-size: 38px;
 }
+a,
+li {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
 .text {
   font-weight: 300;
   line-height: 1.5em;
@@ -60,7 +67,6 @@ body {
   cursor: pointer;
 }
 #dropdown_container a {
-  text-decoration: none;
   color: #fff;
 }
 #dropdown_container ul {
@@ -129,6 +135,9 @@ body {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
+}
+button:focus {
+  outline: 0;
 }
 .auth_button {
   background-color: #ff856e;
@@ -262,6 +271,30 @@ body {
 }
 footer {
   background-color: #24242c;
+  height: 600px;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+footer img {
+  width: 101px;
+  height: 40px;
+}
+footer a {
+  color: #fff;
+}
+footer .web_map .item_title {
+  margin-bottom: 50px;
+}
+footer .web_map .item_title a {
+  color: #fff;
+}
+footer .web_map li {
+  margin-bottom: 20px;
+}
+footer .web_map li a {
+  color: grey;
 }
 #description {
   text-align: center;
