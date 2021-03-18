@@ -15,6 +15,19 @@ h1{
 h2{
     font-size: 38px;
 }
+.text{
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 14px;
+
+}
+.text_area{
+    width: 500px;
+    margin-bottom: 75px;
+    margin-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .title {
     font-size: 24px;
 
@@ -200,17 +213,13 @@ body {
 
        .description {
            .area {
-                 width: 500px;
-                 margin-bottom: 75px;
-                 margin-top:100px;
-                 margin-left: auto;
-                 margin-right: auto;
+                .text_area();
            }
            p{
-               font-weight: 300;
-               line-height: 1.5em;
+               .text();
                margin-top:25px;
-               font-size: 14px;
+            
+              
                
            }
        }
@@ -219,7 +228,30 @@ body {
 
 
 #mid_banner{
+    display: flex;
     background-color: @dark_purple;
+    height: 350px;
+    border-bottom-left-radius:90px;
+    border-top-right-radius: 90px;
+    margin-top:100px;
+    .image_container{
+        width:50%;
+        img{
+            margin-top:-80px;
+            margin-left:25px;
+        }
+    }
+    .area{
+        .text_area();
+        color: @white;
+        width: 50%;
+    }
+
+    p{
+        .text();
+         margin-top:25px;
+         width:500px;
+    }
 
 }
 
