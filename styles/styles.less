@@ -12,8 +12,33 @@ h1{
     font-size:45px;
    
 }
+h2{
+    font-size: 38px;
+}
+a, li {
+    text-decoration: none;
+}
 
+ul {
+    list-style: none;
+}
+.text{
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 14px;
 
+}
+.text_area{
+    width: 500px;
+    margin-bottom: 75px;
+    margin-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
+    font-size: 24px;
+
+}
 
 body {
     background-color: @light_grey;
@@ -56,6 +81,61 @@ body {
     }
 }
 
+//Dropdown Menu
+#dropdown_container{
+
+    .dropdown_hover{
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        cursor: pointer;
+
+    }
+
+
+    a{
+       
+        color: @white;
+    }
+  
+
+    ul{
+        list-style: none;
+        li {
+
+            display: block;
+            float: left;
+            position:relative;
+            text-decoration: none;
+            margin-right:25px;
+
+            ul{
+                visibility: hidden;
+                opacity: 0;
+                position: absolute;
+                left:0;
+                display: none;
+                background-color: @pinkrange;
+                padding: 5px;
+
+                li {
+                    clear: both;
+                    width: 100%;
+                    margin-top: 1rem;
+                   
+                }  
+            }
+           
+        }
+      
+    }
+
+    ul li:hover > ul,
+    ul li ul:hover {
+      .dropdown_hover()
+    }
+}
+
 // Button Styles
 
 .hover_state{
@@ -90,6 +170,8 @@ body {
 
 }
 
+button:focus {outline:0;}
+
 .auth_button{
    .button();
     border: none;
@@ -106,15 +188,156 @@ body {
    margin-right: 25px;
 }
 
+#intro {
+
+    width:100%;
+    height:auto;
+    h2 {
+        text-align: center;
+        margin-top:100px;
+    }
+    .container{
+        display:flex;
+        justify-content: space-evenly;
+        margin-top:100px;
+       .image_container, .description {
+           width:50%;
+       }
+       .image_container{
+           overflow: hidden;
+           img{
+               float:right;
+               max-width:100%;
+               position:relative;
+               height:auto;
+               margin-right:-20%;
+
+
+           }
+       
+        
+       }
+
+       .description {
+           .area {
+                .text_area();
+           }
+           p{
+               .text();
+               margin-top:25px;
+            
+              
+               
+           }
+       }
+    }
+}
 
 
 #mid_banner{
+    display: flex;
     background-color: @dark_purple;
+    height: 350px;
+    border-bottom-left-radius:90px;
+    border-top-right-radius: 90px;
+    margin-top:100px;
+    .image_container{
+        background-image: url('../images/bg-pattern-circles.svg');
+        background-position: bottom;
+        width:50%;
+        img{
+            margin-top:-80px;
+            margin-left:25px;
+        }
+    }
+    .area{
+        .text_area();
+        color: @white;
+        width: 50%;
+    }
+
+    p{
+        .text();
+         margin-top:25px;
+         width:500px;
+    }
 
 }
+#outro {
+        display:flex;
+        margin-top:250px;
+       .image_container, .description {
+           width:50%;
+       }
+       .image_container{
+           img{
+               float:left;
+               max-width:100%;
+               position:relative;
+               height:auto;
+               margin-left:-20%;
+
+
+           }
+       
+        
+       }
+
+       .description {
+           .area {
+                .text_area();
+           }
+           p{
+               .text();
+               margin-top:25px;
+            
+              
+               
+           }
+       }
+    
+}
+
+
+
 
 footer{
     background-color: @dark_black;
+    height:600px;
+    color: @white;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:100px;
+
+    img{
+        width:101px;
+        height: 40px;
+    }
+
+    a{
+        color: @white;
+    }
+
+    .web_map {
+        
+        .item_title {
+            margin-bottom:50px;
+
+            a{
+                color:@white;
+
+            }
+            
+        }
+        li  {
+            margin-bottom: 20px;
+
+            a{
+                color: grey;
+            }
+           
+        }
+    }
 }
 
 
