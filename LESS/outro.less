@@ -1,0 +1,37 @@
+@import "variables";
+@import "mixins";
+
+#outro {
+    display:flex;
+    margin-top:250px;
+   .image_container, .description {
+       width:50%;
+   }
+   .image_container{
+       img{
+           float:left;
+           max-width:100%;
+           position:relative;
+           height:auto;
+           margin-left:-20%;
+
+
+       }
+   
+    
+   }
+
+   .description {
+       .area {
+            .text_area();
+       }
+       p{
+           .text();
+           margin-top:25px;
+        
+          
+           
+       }
+   }
+
+}

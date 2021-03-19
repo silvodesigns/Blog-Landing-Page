@@ -1,0 +1,32 @@
+@import "variables";
+@import "mixins";
+
+#mid_banner{
+    display: flex;
+    background-color: @dark_purple;
+    height: 350px;
+    border-bottom-left-radius:90px;
+    border-top-right-radius: 90px;
+    margin-top:100px;
+    .image_container{
+        background-image: url('../images/bg-pattern-circles.svg');
+        background-position: bottom;
+        width:50%;
+        img{
+            margin-top:-80px;
+            margin-left:25px;
+        }
+    }
+    .area{
+        .text_area();
+        color: @white;
+        width: 50%;
+    }
+
+    p{
+        .text();
+         margin-top:25px;
+         width:500px;
+    }
+
+}

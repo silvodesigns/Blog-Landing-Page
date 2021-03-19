@@ -1,0 +1,54 @@
+@import "variables";
+
+
+
+// Button Styles
+.hover_state{
+    background-color: @white;
+    border: none;
+    color: @pinkrange;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+
+}
+.button:hover{
+    .hover_state()
+
+  }
+
+.button{
+    background-color: @pinkrange;
+    border: 1px solid @white;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+
+}
+
+button:focus {outline:0;}
+
+.auth_button{
+   .button();
+    border: none;
+    background-color: inherit;
+
+
+}
+
+.auth_button:hover{
+    .hover_state()
+}
+
+#log_in{
+   margin-right: 25px;
+}
