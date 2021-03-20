@@ -70,14 +70,13 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 
 ### Continued development
-I am thinking on developing this site further and moving beyond the requirements for the challenge. I want to add a form for log in and register and connect them to an actual SQl database using Node.js; user authentication and token and further down the line , the ability to actually write blog posts for users.
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I am thinking on developing this site further and moving beyond the requirements for the challenge. I want to add a form for log in and register;connect them to an actual SQL database using Node.js; user authentication and token. Also, the ability for users to actually write blog posts as going the extra mile and keep my skills sharp.
 
 ### Useful resources
 
 - [CSS trikcs](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - I contanstly refered to this site to make sure I was using up to date responsive syntax.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+
 
 ## Author
 
