@@ -1,0 +1,47 @@
+a,
+li {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.text {
+  font-weight: 300;
+  line-height: 1.5em;
+  font-size: 14px;
+}
+.text_area {
+  width: 500px;
+  margin-bottom: 75px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#outro {
+  display: flex;
+  margin-top: 250px;
+}
+#outro .image_container,
+#outro .description {
+  width: 50%;
+}
+#outro .image_container img {
+  float: left;
+  max-width: 100%;
+  position: relative;
+  height: auto;
+  margin-left: -20%;
+}
+#outro .description .area {
+  width: 500px;
+  margin-bottom: 75px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#outro .description p {
+  font-weight: 300;
+  line-height: 1.5em;
+  font-size: 14px;
+  margin-top: 25px;
+}

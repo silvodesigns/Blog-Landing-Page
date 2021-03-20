@@ -1,0 +1,37 @@
+a,
+li {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+#main {
+  background-color: #ff856e;
+  width: 100%;
+  height: 500px;
+  color: #fff;
+  background-image: url('../images/bg-pattern-intro.svg');
+  background-position: center;
+  border-bottom-left-radius: 90px;
+}
+#main nav {
+  display: flex;
+  width: 100%;
+  padding-top: 45px;
+  align-items: center;
+  justify-content: space-around;
+}
+#main .divider1 {
+  display: flex;
+  align-items: center;
+}
+#main .divider1 .logo {
+  margin-right: 50px;
+}
+#main .divider2 #authentication {
+  display: flex;
+  align-items: center;
+}
+#main .divider2 #authentication .logo {
+  margin-right: 50px;
+}

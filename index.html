@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/html5reset-1.6.1.css">
-  <link rel="stylesheet" href="styles.less/styles.css">
+  <link rel="stylesheet" href="styles/index.css">
 
 
   <title>Blogr</title>
@@ -21,7 +21,13 @@
   <div id="main">
     <nav>
       <div class="divider1">
-        <img class="logo" src="images/logo.svg" />
+        <div id="logo_container">
+          <img class="logo" src="images/logo.svg" />
+        </div>
+
+        <div id="hamburger_mobile">
+          <img class="hamburger" src="images/icon-hamburger.svg" />
+        </div>
         <div id="dropdown_container">
           <ul>
             <li>
@@ -66,8 +72,8 @@
 
 
     <div id="description">
-      <h1>A modern publishing platform</h1>
-      <h3>Grow your audience and build your online brand</h3>
+      <h1><span class="break_line">A modern </span>publishing platform</h1>
+      <p>Grow your audience and build your online brand</p>
 
       <div id="calls_to_action">
         <button class="button">Start for free</button>
@@ -111,7 +117,7 @@
       <img src="images/illustration-phones.svg" />
     </div>
     <div class="area">
-      <h4 class="title">State of the Art Infrastructure</h4>
+      <h4 class="title"><span class="break_line">State of the Art</span> Infrastructure</h4>
       <p>
         With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
         This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.

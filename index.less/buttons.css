@@ -1,0 +1,75 @@
+a,
+li {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.hover_state {
+  background-color: #fff;
+  border: none;
+  color: #ff856e;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.button:hover {
+  background-color: #fff;
+  border: none;
+  color: #ff856e;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.button {
+  background-color: #ff856e;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+button:focus {
+  outline: 0;
+}
+.auth_button {
+  background-color: #ff856e;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  border: none;
+  background-color: inherit;
+}
+.auth_button:hover {
+  background-color: #fff;
+  border: none;
+  color: #ff856e;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+#log_in {
+  margin-right: 25px;
+}
