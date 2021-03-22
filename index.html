@@ -11,16 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/html5reset-1.6.1.css">
   <link rel="stylesheet" href="styles/index.css">
-  <script>
-    function mobileMenu() {
-      var x = document.getElementById("mobile-menu");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-  </script>
+  <script src="js/index.js"></script>
 
 
   <title>Blogr</title>
@@ -79,38 +70,51 @@
       </div>
     </nav>
     <div id="mobile-menu">
-      <div id="dropdown_container_mobile">
-        <ul>
-          <li class="title-mobile-container">
-            <a class="dropdown_title_mobile" href="#">Product</a>
-            <ul class="dropdown_mobile">
-              <li><a href="#">Overview</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Marketplace</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Integrations</a></li>
-            </ul>
-          </li>
-          <li class="title-mobile-container">
-            <a class="dropdown_title_mobile" href="#">Company</a>
-            <ul class="dropdown_mobile">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Careers</a></li>
-            </ul>
-          </li>
-          <li class="title-mobile-container">
-            <a class="dropdown_title_mobile" href="#">Connect</a>
-            <ul class="dropdown_mobile">
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Newsletter</a></li>
-              <li><a href="#">LinkedIn</a></li>
-            </ul>
-          </li>
-        </ul>
+      <ul>
+        <li class="title-mobile-container">
+          <a class="dropdown_title_mobile" href="#" id="first" onclick="dropdownMenu(id)">Product
+            <img class=" closing-icon" src="images/icon-arrow-dark.svg" />
+          </a>
 
+          <ul class="dropdown_mobile" id="first">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Integrations</a></li>
+          </ul>
+        </li>
+        <li class="title-mobile-container">
+          <a class="dropdown_title_mobile" href="#" id="second" onclick="dropdownMenu(id)">Company
+            <img class="closing-icon" src="images/icon-arrow-dark.svg" />
+          </a>
+
+          <ul class="dropdown_mobile" id="second">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </li>
+        <li class="title-mobile-container">
+          <a class="dropdown_title_mobile" href="#" id="third" onclick="dropdownMenu(id)">Connect
+            <img class=" closing-icon" src="images/icon-arrow-dark.svg" />
+          </a>
+
+          <ul class="dropdown_mobile" id="third">
+            <li><a href=" #">Contact</a>
+            </li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div id="mobile_auth">
+        <p class="login_mobile">Log In</p>
+        <button class="signup_mobile">Sign Up</button>
       </div>
+
+
 
     </div>
 
