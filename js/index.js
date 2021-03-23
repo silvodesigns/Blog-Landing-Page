@@ -8,6 +8,7 @@ function mobileMenu() {
 }
 
 function closeOpen(id) {
+    //close other dropdowns if open, so there is only one at a time showing
     var toClose = document.querySelectorAll(".dropdown_mobile");
     for (let i = 0; i < toClose.length; i++) {
         if (toClose[i].id != id) {
@@ -20,6 +21,7 @@ function closeOpen(id) {
 
 
 }
+
 
 function dropdownMenu(id) {
     var toDisplay = document.querySelector(".dropdown_mobile#" + id);

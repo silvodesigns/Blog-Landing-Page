@@ -584,14 +584,29 @@ footer img {
 footer a {
   color: #fff;
 }
+@media (max-width: 800px) {
+  footer .web_map {
+    margin-bottom: 20px;
+  }
+}
 footer .web_map .item_title {
   margin-bottom: 50px;
+}
+@media (max-width: 800px) {
+  footer .web_map .item_title {
+    margin-bottom: 25px;
+  }
 }
 footer .web_map .item_title a {
   color: #fff;
 }
 footer .web_map li {
   margin-bottom: 20px;
+}
+@media (max-width: 800px) {
+  footer .web_map li {
+    margin-bottom: 10px;
+  }
 }
 footer .web_map li a {
   color: grey;
