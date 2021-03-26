@@ -330,6 +330,9 @@ h2 {
 .hamburger:hover {
   cursor: pointer;
 }
+.rotate_arrow {
+  transform: rotate(180deg);
+}
 .text {
   font-weight: 300;
   line-height: 1.5em;
