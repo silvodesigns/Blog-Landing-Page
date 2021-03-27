@@ -22,10 +22,18 @@ function closeOpen(id) {
 
 }
 
+function changeIcon(id) {
+    var icon = document.querySelector(".dropdown_title_mobile#" + id + " > #change");
+    icon.classList.toggle("rotate_arrow");
+
+
+}
+
 
 function dropdownMenu(id) {
     var toDisplay = document.querySelector(".dropdown_mobile#" + id);
-    closeOpen(id)
+    closeOpen(id);
+    changeIcon(id);
     if (toDisplay.style.display === "block") {
         toDisplay.style.display = "none";
     } else {
