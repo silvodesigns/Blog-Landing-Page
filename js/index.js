@@ -26,9 +26,7 @@ function changeIcon(id) {
     var icon = document.querySelector(".dropdown_title_mobile#" + id + " > #change");
     icon.classList.toggle("rotate_arrow");
 
-
 }
-
 
 function dropdownMenu(id) {
     var toDisplay = document.querySelector(".dropdown_mobile#" + id);
@@ -41,4 +39,10 @@ function dropdownMenu(id) {
     }
 
 
+}
+
+var showDropdown = function (e) {
+    const toShow = document.querySelector(".dropdown_title + .nested_ul");
+    toShow.classList.toggle("dropdown_hover");
+    console.log(toShow);
 }
