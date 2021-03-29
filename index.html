@@ -30,10 +30,12 @@
           <img class="hamburger" src="images/icon-hamburger.svg" onclick="mobileMenu()" />
         </div>
         <div id="dropdown_container">
-          <ul>
-            <li>
-              <a class="dropdown_title" href="#">Product</a>
-              <ul class="dropdown">
+          <ul class="nav_container">
+            <li class="nav_item_li">
+              <a class="dropdown_title" href="#" id="product" onclick="showDropdown(this)">Product
+                <img class="closing-icon" id="change" src="images/icon-arrow-light.svg" />
+              </a>
+              <ul class="dropdown nested_ul">
                 <li><a href="#">Overview</a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Marketplace</a></li>
@@ -41,18 +43,23 @@
                 <li><a href="#">Integrations</a></li>
               </ul>
             </li>
-            <li>
-              <a class="dropdown_title" href="#">Company</a>
-              <ul class="dropdown">
+            <li class="nav_item_li">
+              <a class="dropdown_title" href="#" id="company" onclick="showDropdown(this)">Company
+                <img class=" closing-icon" id="change" src="images/icon-arrow-light.svg" />
+              </a>
+              <ul class="dropdown nested_ul">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Team</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Careers</a></li>
               </ul>
             </li>
-            <li>
-              <a class="dropdown_title" href="#">Connect</a>
-              <ul class="dropdown">
+            <li class="nav_item_li">
+              <a class="dropdown_title" href="#" id="connect" onclick="showDropdown(this)">Connect
+                <img class=" closing-icon" id="change" src="images/icon-arrow-light.svg" />
+
+              </a>
+              <ul class="dropdown nested_ul">
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Newsletter</a></li>
                 <li><a href="#">LinkedIn</a></li>
@@ -73,7 +80,7 @@
       <ul>
         <li class="title-mobile-container">
           <a class="dropdown_title_mobile" href="#" id="first" onclick="dropdownMenu(id)">Product
-            <img class="closing-icon" src="images/icon-arrow-dark.svg" />
+            <img class="closing-icon" id="change" src="images/icon-arrow-dark.svg" />
           </a>
 
           <ul class="dropdown_mobile" id="first">
@@ -86,7 +93,7 @@
         </li>
         <li class="title-mobile-container">
           <a class="dropdown_title_mobile" href="#" id="second" onclick="dropdownMenu(id)">Company
-            <img class="closing-icon" src="images/icon-arrow-dark.svg" />
+            <img class="closing-icon" id="change" src="images/icon-arrow-dark.svg" />
           </a>
 
           <ul class="dropdown_mobile" id="second">
@@ -98,7 +105,7 @@
         </li>
         <li class="title-mobile-container">
           <a class="dropdown_title_mobile" href="#" id="third" onclick="dropdownMenu(id)">Connect
-            <img class=" closing-icon" src="images/icon-arrow-dark.svg" />
+            <img class=" closing-icon" id="change" src="images/icon-arrow-dark.svg" />
           </a>
 
           <ul class="dropdown_mobile" id="third">
